@@ -1,0 +1,27 @@
+body {
+  font-family: sans-serif;
+  padding: 2rem;
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+.dark-mode {
+  background-color: #222;
+  color: white;
+}
+
+button {
+  margin: 0.5rem;
+  padding: 0.5rem 1rem;
+}
+
+.error {
+  color: red;
+  font-size: 0.9rem;
+}
+
+#form-success {
+  color: green;
+  font-weight: bold;
+  margin-top: 1rem;
+}

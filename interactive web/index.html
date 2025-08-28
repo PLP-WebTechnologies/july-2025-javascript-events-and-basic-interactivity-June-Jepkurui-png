@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Interactive Web Page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>Welcome to My Interactive Page</h1>
+
+  <!-- 🎮 Part 2: Interactive Elements -->
+  <button id="toggle-theme">Toggle Dark Mode</button>
+  
+  <div class="counter-container">
+    <p>Counter: <span id="counter">0</span></p>
+    <button id="increase">Increase</button>
+    <button id="decrease">Decrease</button>
+  </div>
+
+  <!-- 📋✅ Part 3: Form Validation -->
+  <h2>Sign Up Form</h2>
+  <form id="signup-form" novalidate>
+    <label>
+      Name:
+      <input type="text" id="name" />
+      <span class="error" id="name-error"></span>
+    </label><br>
+
+    <label>
+      Email:
+      <input type="email" id="email" />
+      <span class="error" id="email-error"></span>
+    </label><br>
+
+    <label>
+      Password:
+      <input type="password" id="password" />
+      <span class="error" id="password-error"></span>
+    </label><br>
+
+    <button type="submit">Submit</button>
+    <p id="form-success"></p>
+  </form>
+
+  <script src="script.js"></script>
+</body>
+</html>
